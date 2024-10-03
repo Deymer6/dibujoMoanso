@@ -198,106 +198,13 @@ void grupoCubos()
 
 
 }
+
+
  ///
-///void cuadrilatero() {
 
-
-
-	glPushMatrix();
-
-	glColor3ub(250, 0, 0);
-
-	glTranslated(-20, 0, 0);
-
-	glRotated(-90, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
-
-	glPushMatrix();
-
-	glColor3ub(0, 250, 0);
-
-	glTranslated(0, 0, 0);
-
-	glRotated(-180, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
-
-	glPushMatrix();
-
-	glColor3ub(0, 0, 250);
-
-	glTranslated(20, 0, 0);
-
-	glRotated(-90, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
-
-
-
-
-
-	glPushMatrix();
-
-	glColor3ub(0, 250, 250);
-
-	glTranslated(-10, 20, 0);
-
-	glRotated(-90, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
-
-	glPushMatrix();
-
-	glColor3ub(250, 0, 250);
-
-	glTranslated(10, 20, 0);
-
-	glRotated(-180, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
-
-
-
-
-
-	glPushMatrix();
-
-	glColor3ub(0, 0, 250);
-
-	glTranslated(0, 40, 0);
-
-	glRotated(-180, 0, 1, 0);
-
-	cubo();
-
-	glPopMatrix();
-
-
+void circulo() {
 
 }
-
-
 void dibujar() {
 	inicializarLuces();
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
